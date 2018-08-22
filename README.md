@@ -2,7 +2,7 @@
 
 
 - [REACT NINDJA](#react-nindja)
-  - [1. : Introdução ao React](#1--introdu%C3%A7%C3%A3o-ao-react)
+  - [1. Introdução ao React](#1--introdu%C3%A7%C3%A3o-ao-react)
     - [1.02: Sobre o React (AULA 02)](#102-sobre-o-react-aula-02)
     - [1.03: Começando a trabalhar com o React (AULA 03)](#103-come%C3%A7ando-a-trabalhar-com-o-react-aula-03)
     - [1.04: Criando elementos aninhados (AULA 04)](#104-criando-elementos-aninhados-aula-04)
