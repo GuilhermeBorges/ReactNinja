@@ -74,49 +74,40 @@ facebook.github.io/react
       - Ao criar com o javascript ele cria um elemento do DOM. Ao usar o do react ele cria apenas um objeto comum que é utilizado com o React para fazer a comparação ao alterar algo; se este elemento for alterado aí o React vai alterar no dom.
     - Conseguimos renderizar elementos SVG também com o ```javascritp React.createElement```
  
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
-### A05:
+### AULA 04: Criando elementos aninhados
+
+  ```javascript
+    const span = React.createElement('span', null, 'Texto do span')
+    const h1 = React.createElement('h1', null, span)
+    const ondeVouRenderizar = document.getElementById('lugarzinBunitu')
+    ReactDOM.render(h1, ondeVouRenderizar)
+  ```
+  - Ao fazer isso geramos:
+  ``` html
+    <div id="lugarzinBunitu">
+      <h1>
+        <span>Texto do span</span>
+      </h1>
+    </div>
+  ```
+
+  - Podemos também passar um array e elementos para criar mais de um:
+  ``` javascript
+    const lista = React.createElement('ul', null, [
+        React.createElement('li', null, 'item: 1 uhuuu'),
+        React.createElement('li', null, 'item: 2 ahaaa')
+      ])
+    ReactDOM.render(lista, ondeVouRenderizar)
+  ```
+
+  ``` html
+  <div id="lugarzinBunitu">
+    <ul>
+      <li>item: 1 uhuuu</li>
+      <li>item: 2 ahaaa</li>
+    </ul>
+  </div>
+  ```
+  - Ao fazer isso apagamos o que tinha antes na div ```lugarzinBunitu```
+  > DÚBIDA: Como eu faço um texto + o span ?
+
