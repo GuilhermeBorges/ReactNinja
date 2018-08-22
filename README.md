@@ -115,16 +115,53 @@ facebook.github.io/react
 ### AULA 05: Conhecendo o JSX
   - JSX: JAVASCRIPT + XML
     - Serve para que poçamos representar nossos componentes de forma mais visual e que tenha mais a cara dos elmeentos que são renderizados no DOM
-    - Imagina como ficaria tenso criar uma porradad de ```React.createElement(elemento, propriedades, conteudo)``` para cada elemento que quisermos renderizar
+    - Imagina como ficaria tenso criar uma porrada de ```React.createElement(elemento, propriedades, conteudo)``` para cada elemento que quisermos renderizar, aninhando função dentro de função e etc
+
+    ``` javascript 
+    React.render(<h1> Ola mundo </h1>, ondeVouRenderizar)
+    ``` 
+    - Entretanto, isso não funciona porque irá dar um erro. O Javascript não suporta a utilização do JSX logo de cara, então temos que pedir ajudar para um amiguinho (transpilador) para nos ajudar
+
+    ``` html
+      <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
+
+      <script type="text/babel">
+        const ondeVouRenderizar = document.getElementById('lugarzinBunitu')
+        const name = 'jãozin'
+        const element = <h1>Olá, {name}</h1>
+
+        ReactDOM.render(
+          element,
+          ondeVouRenderizar
+        )
+      </script>
+
+    ```
+
+    ``` html 
+      <div id="lugarzinBunitu">
+        <h1>Olá, jãozin</h1>
+      </div>
+    ```
+
+    - Assim conseguimos renderizar o que queríamos! o/ 
+    > obs: Com a versão mais recente do babel (6.1.19) não funcionou
+    - Atente-se à propriedade **type** na tag script
+    - Através do JSX conseguimos colocar variáveis e código js dentro de __{chaves}__ e a utilizar
+    - O babel compila a forma "amigável/legível" para as funções do React
+      - Ele deu exemplo de que uma tag h1 renderizada dessa forma demorou 500ms para ser renderizada e a tag h1 diretamente no html demora apenas 3ms
+  
+  
   - Temos uma outra forma de criar elementos também, que é uma forma um pouco mais restrita porém mais legível
 
   ``` javascript
     React.DOM.span(propriedades, conteudo)
     React.DOM.i(props, conteudo)
   ```
-  ** ESTA FORMA APARENTEMENTE NÃO FUNCIONA MAIS **
+  > **ESTA FORMA APARENTEMENTE NÃO FUNCIONA MAIS**
 
-### AULA 06:
+### AULA 06: Aninhando com JSX e criando componentes
+
 ### AULA 07:
 ### AULA 08:
 ### AULA 09:
