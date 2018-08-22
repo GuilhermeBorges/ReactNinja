@@ -2,11 +2,11 @@
 
 ## Módulo 01: 
 
-### A02: Sobre o React
+### AULA02: Sobre o React
 
 
 
-### A02: Sobre o React
+### AULA 02: Sobre o React
 
 facebook.github.io/react
 
@@ -22,7 +22,7 @@ facebook.github.io/react
     - Sistema de administração de CMS
       - Ex.: Wordpress está usando para um sistema de administração (pois é uma interface dinâminca e interativa que precisa sim de muita manipulação do DOM )
 
-- Onde <b>NÃO</b> devemos utilizar o React?
+- Onde **NÃO** devemos utilizar o React?
   - Sistemas que só exibem conteúdo
     - Websites institucionais
     - blogs
@@ -36,7 +36,7 @@ facebook.github.io/react
   - Performance
     - Como ele trabalha com um DOM virtual ao invés de manipular o DOM de verdade (fazendo diffs do que foi alterado na aplicação com o dom real, tudo por debaixo dos panos, atualizando no DOM real apenas o que foi mudado de fato)
 
-### A03: Começando a trabalhar com o React
+### AULA 03: Começando a trabalhar com o React
 
   (foto do site do react) https://reactjs.org/
   - getting started (https://reactjs.org/docs/getting-started.html)
@@ -124,3 +124,63 @@ facebook.github.io/react
   ```
   ** ESTA FORMA APARENTEMENTE NÃO FUNCIONA MAIS **
 
+### AULA 06:
+### AULA 07:
+### AULA 08:
+### AULA 09:
+### AULA 10:
+### AULA 11:
+### AULA 12:
+### AULA 13:
+### AULA 14:
+### AULA 15:
+### AULA 16:
+### AULA 17:
+### AULA 18:
+### AULA 19:
+### AULA 20:
+### AULA 21:
+### AULA 22:
+### AULA 23:
+### AULA 24:
+### AULA 25:
+### AULA 26:
+### AULA 27:
+### AULA 28:
+### AULA 29:
+### AULA 30:
+### AULA 31:
+### AULA 32:
+### AULA 33:
+### AULA 34:
+### AULA 35:
+### AULA 36:
+### AULA 37:
+### AULA 38:
+### AULA 39:
+### AULA 40:
+### AULA 41:
+### AULA 42:
+### AULA 43:
+### AULA 44:
+### AULA 45:
+### AULA 46:
+### AULA 47:
+### AULA 48:
+### AULA 49:
+### AULA 50:
+### AULA 51:
+### AULA 52:
+### AULA 53:
+### AULA 54:
+### AULA 55:
+### AULA 56:
+### AULA 57:
+### AULA 58:
+### AULA 59:
+### AULA 60:
+### AULA 61:
+### AULA 62:
+### AULA 63:
+### AULA 64:
+### AULA 65:
