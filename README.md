@@ -168,12 +168,13 @@ facebook.github.io/react
       ondeVouRenderizar
     )
   ```
+  > obs.: Durante a aula ele usa React.createClass que já está desatualizado e não fununcia mais
 
   O método ```render``` deve retornar sempre um elemento do tipo React.
 
 
-  ```__POR CONVENÇÃO COMPOENTES DEEM SEMPRE COMEÇAR COM LETRA MAIÚSCULA__```
-  > obs.: Durante a aula ele usa React.createClass que já está desatualizado e não fununcia mais
+  >__POR CONVENÇÃO COMPOENTES DEEM SEMPRE COMEÇAR COM LETRA MAIÚSCULA__
+  
   As vezes vamos colocar um parentes logo após o ```return``` apenas para poder ficar mais claro e poder fazer a quebra de linha logo após 
 
   ```javascript
