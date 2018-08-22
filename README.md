@@ -1,6 +1,6 @@
 # REACT NINDJAA
 
-## Módulo 01: 
+##1. : Introdução ao React
 
 ### AULA 02: Sobre o React
 
@@ -207,7 +207,7 @@ facebook.github.io/react
   ```
 
 
-## Módulo 02: React + Webpack
+##2. React + Webpack
 ### AULA 07:
 ### AULA 08:
 ### AULA 09:
