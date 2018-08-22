@@ -2,10 +2,6 @@
 
 ## Módulo 01: 
 
-### AULA02: Sobre o React
-
-
-
 ### AULA 02: Sobre o React
 
 facebook.github.io/react
@@ -62,7 +58,7 @@ facebook.github.io/react
       let conteudo = 'Hello World Reacat'
       let h1 = React.createElement(elemento, propriedades, conteudo)
     ```
-    - COmo fazemos para renderizar isso na tela?
+    - Como fazemos para renderizar isso na tela?
       - Usamos o ReactDOM: 
 
       ```javascript 
@@ -161,7 +157,9 @@ facebook.github.io/react
   > **ESTA FORMA APARENTEMENTE NÃO FUNCIONA MAIS**
 
 ### AULA 06: Aninhando com JSX e criando componentes
+  - Ok sabemos utilizar o  ```render``` para o ```ReactDOM``` mas eae, quero criar os meus, como fazemos?
 
+## Módulo 02: React + Webpack
 ### AULA 07:
 ### AULA 08:
 ### AULA 09:
