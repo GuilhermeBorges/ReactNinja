@@ -38,8 +38,85 @@ facebook.github.io/react
 
 ### A03: Começando a trabalhar com o React
 
-  (foto do site do react)
-  
-### A02: Sobre o React
+  (foto do site do react) https://reactjs.org/
+  - getting started (https://reactjs.org/docs/getting-started.html)
+  - Starter Kit, tem o react.js e o react-dom-server.js que precisamos
+    - (links para o cdn)
 
+  - Vamos no terminal
+    - instalar o http-server
+      - nom i http-server 
+      - usado para podermos executar o nosso servidor
+    - chamar o ```http-server``` na pasta para poder servir o rolezin
+  (print do http-server executando)
+  ``` HTML
+  <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+  ```
+  - Quando fazemos um import temos o React Global
+    - Se formos para o console e fizermos um React vai aparecer todas as propriedades e etc
+    - Vamos usar a create element para criar um elemento usando o react
+    ``` javascript
+      let elemento = 'h1'
+      let propriedades = undefined
+      let conteudo = 'Hello World Reacat'
+      let h1 = React.createElement(elemento, propriedades, conteudo)
+    ```
+    - COmo fazemos para renderizar isso na tela?
+      - Usamos o ReactDOM: 
 
+      ```javascript 
+        const elemento = React.createElement(elemento, propriedades, conteudo)
+        const ondeVouRenderizar = document.getElementById('lugarzinBunitu')
+        ReactDOM.render(elemento, ondeVouRenderizar)
+      ```
+    - React CreateElement x document.createElement
+      - Ao criar com o javascript ele cria um elemento do DOM. Ao usar o do react ele cria apenas um objeto comum que é utilizado com o React para fazer a comparação ao alterar algo; se este elemento for alterado aí o React vai alterar no dom.
+    - Conseguimos renderizar elementos SVG também com o ```javascritp React.createElement```
+ 
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
+### A05:
