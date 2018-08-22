@@ -111,3 +111,16 @@ facebook.github.io/react
   - Ao fazer isso apagamos o que tinha antes na div ```lugarzinBunitu```
   > DÚBIDA: Como eu faço um texto + o span ?
 
+
+### AULA 05: Conhecendo o JSX
+  - JSX: JAVASCRIPT + XML
+    - Serve para que poçamos representar nossos componentes de forma mais visual e que tenha mais a cara dos elmeentos que são renderizados no DOM
+    - Imagina como ficaria tenso criar uma porradad de ```React.createElement(elemento, propriedades, conteudo)``` para cada elemento que quisermos renderizar
+  - Temos uma outra forma de criar elementos também, que é uma forma um pouco mais restrita porém mais legível
+
+  ``` javascript
+    React.DOM.span(propriedades, conteudo)
+    React.DOM.i(props, conteudo)
+  ```
+  ** ESTA FORMA APARENTEMENTE NÃO FUNCIONA MAIS **
+
