@@ -18,15 +18,35 @@
   <script crossorigin src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.8.34/browser.js"></script>
 
   <script type="text/babel">
+  const ondeVouRenderizar = document.getElementById('lugarzinBunitu')
   // render tem que retornar um elemento do React
   // por convenção usamos sempre letras maiúsculas nos nossos elementos
-    const Title = React.createClass({
-      render: <h1></h1>
-    })
-    ReactDOM.render(
-      <Title />,
-      ondeVouRenderizar
-    )
+    //  Jeito dele que já foi descontinuado
+    // const Title = React.createClass({
+    //   render: <h1>BUA HAHA</h1>
+    // })
+  
+  // class Titulozin extends React.Component {
+  //   render () { return <h1> <span>BUA HAHA</span> </h1>}
+  // }
+  // class Titulozin extends React.Component {
+  //   render () { return (
+  //       <h1><span> ISSO AQUI </span></h1>
+  //       <h1><span> NÃO VAI FUNCIONAR </span></h1>
+  //   )}
+  // }
+  class Titulozin extends React.Component {
+    render () { return (
+      <div>
+        <h1><span> ISSO AQUI </span></h1>
+        <h1><span> VAI FUNCIONAR </span></h1>
+      </div>
+    )}
+  }
+  ReactDOM.render(
+    <Titulozin />,
+    ondeVouRenderizar
+  )
   </script>
 </body>
 

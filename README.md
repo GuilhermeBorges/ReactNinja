@@ -157,7 +157,52 @@ facebook.github.io/react
   > **ESTA FORMA APARENTEMENTE NÃO FUNCIONA MAIS**
 
 ### AULA 06: Aninhando com JSX e criando componentes
-  - Ok sabemos utilizar o  ```render``` para o ```ReactDOM``` mas eae, quero criar os meus, como fazemos?
+  Ok sabemos utilizar o  ```render``` para o ```ReactDOM``` mas eae, quero criar os meus, como fazemos?
+  
+  ``` javascript
+    class Titulozin extends React.Component {
+      render () { return <h1><span> BUA HAHA </span></h1>}
+    }
+    ReactDOM.render(
+      <Titulozin />,
+      ondeVouRenderizar
+    )
+  ```
+
+  O método ```render``` deve retornar sempre um elemento do tipo React.
+  > Por convenção **componentes devem começar sempre com letra maiúscula**
+  > obs.: Durante a aule ele usa React.createClass que já está desatualizado e não fununcia mais
+  As vezes vamos colocar um parentes logo após o ```return``` apenas para poder ficar mais claro e poder fazer a quebra de linha logo após 
+
+  ```javascript
+    class Titulozin extends React.Component {
+      render () { return (
+        <h1>
+          <span> BUA HAHA </span>
+        </h1>
+      )}
+    }
+  ```
+
+  Não conseguimos retornar mais de uma tag. Precisamos ter uma tag que envolve todas as tagas que vamos retornar
+
+  ```javascript
+  class Titulozin extends React.Component {
+    render () { return (
+        <h1><span> ISSO AQUI </span></h1>
+        <h1><span> NÃO VAI FUNCIONAR </span></h1>
+    )}
+  }
+  class Titulozin extends React.Component {
+    render () { return (
+      <div>
+        <h1><span> ISSO AQUI </span></h1>
+        <h1><span> VAI FUNCIONAR </span></h1>
+      </div>
+    )}
+  }
+  ```
+
 
 ## Módulo 02: React + Webpack
 ### AULA 07:
